@@ -23,7 +23,8 @@ You can do alot of other things like editing the game's font, editing job names,
 To add your own edits open open AuthHook and go to MapleHook.cpp, find InitStringPool, and add whatever you want
 For example:
 
-![xaeJIin](https://user-images.githubusercontent.com/72038114/126041459-c0d28eb2-e743-435e-a1bf-4caf42a0fc8a.png)
+![nUMH9aq](https://user-images.githubusercontent.com/72038114/126041505-607043dc-25ea-4b17-8282-f2d0a9ae1cc0.png)
+
 
 All you have to do is put the right ID of the string you wish to edit
 
