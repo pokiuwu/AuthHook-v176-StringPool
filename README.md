@@ -2,6 +2,7 @@
 Enhanced AuthHook for v176 that includes StringPool
 
 
+I thought it would be cool to add this feature to v176 since nobody else did, can be used to do some cool stuff
 
 #Usage of StringPool
 You'll need an unpacked dump of v176 MapleStory.exe which can be found here:
