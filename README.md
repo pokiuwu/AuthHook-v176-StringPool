@@ -73,13 +73,7 @@ Other features this AuthHook has:
 
 
 
-
-
-
-
-
-
-- Credits
+##Credits
 
 
 Rajan for the original AuthHook code
