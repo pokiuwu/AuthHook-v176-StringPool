@@ -17,7 +17,7 @@ https://drive.google.com/file/d/1fiUi7Yapv9hV0WzWr5F5GEyJCVEL-w4c/view?usp=shari
 After downloading both the unpacked dump of v176 and STREDIT, open up STREDIT as admin and load the v176 dump file
 It will take a few moments and you should see a list of strings, using the StringPool you can edit any of those strings to your liking, for example:
 
-in v176, the ID 4479 "Ver. %d.%d" is the version of the game that is shows at the top right of the login screen, you can edit to say whatever you'd like, example *(see top right)*:
+in v176, the ID 4479 "Ver. %d.%d" is the version of the game that is shown at the top right of the login screen, you can edit to say whatever you'd like, example *(see top right)*:
 
 ![xaeJIin](https://user-images.githubusercontent.com/72038114/126041350-5a3e086b-915b-4f8c-a240-d5da36ee3303.png)
 
