@@ -21,6 +21,9 @@ in v176, the ID 4479 "Ver. %d.%d" is the version of the game that is shows at th
 
 ![xaeJIin](https://user-images.githubusercontent.com/72038114/126041350-5a3e086b-915b-4f8c-a240-d5da36ee3303.png)
 
+![mgFNuw5](https://user-images.githubusercontent.com/72038114/126041892-8a3f6cee-44a3-4d22-94aa-f13c29a16859.png)
+
+
 You can do alot of other things like editing the game's font, editing job names, all kinds of messages, this can also be used ot find specific functions in IDA.
 
 To add your own edits open open AuthHook and go to MapleHook.cpp, find InitStringPool, and add whatever you want
