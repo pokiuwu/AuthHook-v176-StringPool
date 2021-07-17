@@ -36,6 +36,10 @@ Have fun!
 
 
 
+
+
+
+
 #How to build
 
 
@@ -50,6 +54,9 @@ Other features this AuthHook has:
 - MSCRC Patched
 - Nexon Logging Removed
 - Multi Client Enabled
+
+
+
 
 
 #Credits
