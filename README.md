@@ -37,6 +37,8 @@ Have fun!
 
 
 #How to build
+
+
 Go to Global.h and change the localhost address (OPT_ADDR_HOSTNAME) to yours if you want to make the server public, otherwise keep it at 127.0.0.1
 Build in x86 not x64!
 Create a bat file with the following command: `MapleStory.exe GameLaunching 8.31.99.141 8484` [make sure it's in your v176 folder]
