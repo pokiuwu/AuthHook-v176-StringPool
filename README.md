@@ -4,7 +4,7 @@ Enhanced AuthHook for v176 that includes StringPool
 
 I thought it would be cool to add this feature to v176 since nobody else did, can be used to do some cool stuff
 
-#Usage of StringPool
+- Usage of StringPool
 
 
 You'll need an unpacked dump of v176 MapleStory.exe which can be found here:
@@ -46,7 +46,7 @@ Have fun!
 
 
 
-#How to build
+- How to build
 
 
 Go to Global.h and change the localhost address (OPT_ADDR_HOSTNAME) to yours if you want to make the server public, otherwise keep it at 127.0.0.1
@@ -73,7 +73,7 @@ Other features this AuthHook has:
 
 
 
-#Credits
+- Credits
 
 
 Rajan for the original AuthHook code
