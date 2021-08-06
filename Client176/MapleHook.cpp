@@ -34,7 +34,7 @@ void InitStringPool()
 {
 	g_mStringPool[4479] = std::string("Poki v176"); //Login Version
 	g_mStringPool[29] = std::string("Ayame"); // Manager Job to Ayame
-	g_mStringPool[1547] = std::string("[Welcome] Welcome to Poki v176 !!"); //version
+	g_mStringPool[1547] = std::string("[Welcome] Welcome to Poki v176 !!"); //Welcome message
 }
 
 void FuckMaple()
