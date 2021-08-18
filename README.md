@@ -68,6 +68,7 @@ Other features this AuthHook has:
 - MSCRC Patched
 - Nexon Logging Removed
 - Multi Client Enabled
+- Removed Damage Cap
 - Chat Spam Block Bypass
 - Droppable NX Items
 
