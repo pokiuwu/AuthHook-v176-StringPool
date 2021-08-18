@@ -30,6 +30,8 @@ void Log(const char* format, ...);
 void PatchJmp(DWORD dwAddress, DWORD dwDest);
 void PatchRetZero(DWORD dwAddress);
 void PatchNop(DWORD dwAddress, DWORD dwCount);
+void PatchChat(DWORD dwAddress, DWORD dwCount);
+void PatchDMGCap(DWORD dwAddress);
 
 DWORD GetFuncAddress(LPCSTR lpModule, LPCSTR lpFunc);
 

@@ -21,6 +21,7 @@ void Log(const char* format, ...)
 	va_end(args);
 }
 
+
 void PatchJmp(DWORD dwAddress, DWORD dwDest)
 {
 
@@ -33,6 +34,26 @@ void PatchRetZero(DWORD dwAddress)
 	*(BYTE*)(dwAddress + 1) = 0xC0;
 	*(BYTE*)(dwAddress + 2) = RET;
 }
+
+
+void PatchDMGCap(DWORD dwAddress)
+{
+	*(BYTE*)(dwAddress + 0) = 0x68;
+	*(BYTE*)(dwAddress + 1) = 0xFF;
+	*(BYTE*)(dwAddress + 2) = 0xFF;
+	*(BYTE*)(dwAddress + 3) = 0xFF;
+	*(BYTE*)(dwAddress + 4) = 0x7F;
+}
+
+void PatchChat(DWORD dwAddress, DWORD dwCount)
+{
+	for (int i = 0; i < dwCount; i++)
+	{
+		*(BYTE*)(dwAddress + i) = 0xEB;
+	}
+}
+
+
 void PatchNop(DWORD dwAddress, DWORD dwCount)
 {
 	for (int i = 0; i < dwCount; i++)
