@@ -35,6 +35,8 @@ void InitStringPool()
 	g_mStringPool[4479] = std::string("Poki v176"); //Login Version
 	g_mStringPool[29] = std::string("Ayame"); // Manager Job to Ayame
 	g_mStringPool[1547] = std::string("[Welcome] Welcome to Poki v176 !!"); //Welcome message
+	g_mStringPool[2352] = std::string(""); // Video Skipper
+
 }
 
 void FuckMaple()
@@ -43,12 +45,15 @@ void FuckMaple()
 	PatchJmp(0x019DD7AD, 0x019DD844); // CRC Bypass
 
 	PatchDMGCap(0x000EB8C35); // No Damage Cap
+	PatchDMGCap(0x00EB512A); // No Damage Cap
 	PatchNop(0x0074CE30, 6); // Drop Cash Items
 	PatchNop(0x0074CE3F, 6); // Drop Cash Items
 	PatchChat(0x0064E09B, 6); // Bypass Chat Spam
 	PatchChat(0x0064DFA1, 1); // Bypass Chat Spam
 
+	
 
+		//PatchNop(0x00B31B3D, 2); // Wizet Logo Skip
 
 
 
