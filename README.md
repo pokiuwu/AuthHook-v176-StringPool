@@ -8,7 +8,7 @@ I thought it would be cool to add this feature to v176 since nobody else did, ca
 
 
 You'll need an unpacked dump of v176 MapleStory.exe which can be found here:
-https://drive.google.com/file/d/1Xy-GBCMF5FhFF4QTsWxKypKbQdXXKu9-/view?usp=sharing
+https://drive.google.com/file/d/19EwTY7gl1yLxcQpx5z0xRPRlTnNBVb-e/view?usp=sharing
 
 
 You'll also need STREDIT which can be found here (this STREDIT is also updated and will work for higher versions as well, tested up to v223):
